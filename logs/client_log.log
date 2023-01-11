@@ -1,0 +1,26 @@
+2023-01-11 22:43:48,678 DEBUG decors.py Была вызвана функция arg_parser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main
+2023-01-11 22:43:48,678 DEBUG decors.py Была вызвана функция arg_parser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main
+2023-01-11 22:43:48,678 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: user_2
+2023-01-11 22:43:48,678 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: user_1
+2023-01-11 22:43:49,192 DEBUG client.py Сформировано presence сообщение для пользователя user_1
+2023-01-11 22:43:49,195 DEBUG decors.py Была вызвана функция create_presence c параметрами ('user_2',), {}. Вызов из модуля __main__. Вызов из функции main
+2023-01-11 22:43:49,195 DEBUG decors.py Была вызвана функция create_presence c параметрами ('user_1',), {}. Вызов из модуля __main__. Вызов из функции main
+2023-01-11 22:43:49,197 DEBUG decors.py Была вызвана функция send_message c параметрами (<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49899), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1673466229.1924078, 'user': {'account_name': 'user_2'}}), {}. Вызов из модуля utils. Вызов из функции main
+2023-01-11 22:43:49,706 DEBUG decors.py Была вызвана функция get_message c параметрами (<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49899), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля utils. Вызов из функции main
+2023-01-11 22:43:49,706 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2023-01-11 22:43:49,707 DEBUG decors.py Была вызвана функция process_response_ans c параметрами ({'response': 200},), {}. Вызов из модуля __main__. Вызов из функции main
+2023-01-11 22:43:49,707 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-01-11 22:43:49,708 DEBUG decors.py Была вызвана функция get_message c параметрами (<socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49900), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля utils. Вызов из функции main
+2023-01-11 22:43:49,708 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2023-01-11 22:43:49,708 DEBUG client.py Запущены процессы
+2023-01-11 22:43:49,708 DEBUG decors.py Была вызвана функция process_response_ans c параметрами ({'response': 200},), {}. Вызов из модуля __main__. Вызов из функции main
+2023-01-11 22:43:49,708 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-01-11 22:43:49,709 DEBUG client.py Запущены процессы
+2023-01-11 22:44:10,952 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'user_2', 'to': 'user_1', 'time': 1673466250.952729, 'mess_text': 'asdgasdgasga'}
+2023-01-11 22:44:10,954 DEBUG decors.py Была вызвана функция send_message c параметрами (<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49899), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'user_2', 'to': 'user_1', 'time': 1673466250.952729, 'mess_text': 'asdgasdgasga'}), {}. Вызов из модуля utils. Вызов из функции create_message
+2023-01-11 22:44:10,954 INFO client.py Отправлено сообщение для пользователя user_1
+2023-01-11 22:44:11,046 DEBUG decors.py Была вызвана функция get_message c параметрами (<socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49900), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля utils. Вызов из функции run
+2023-01-11 22:44:11,047 INFO client.py Получено сообщение от пользователя user_2:
+asdgasdgasga
+2023-01-11 22:44:18,385 DEBUG decors.py Была вызвана функция send_message c параметрами (<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49899), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1673466258.3843546, 'account_name': 'user_2'}), {}. Вызов из модуля utils. Вызов из функции run
+2023-01-11 22:44:18,385 INFO client.py Завершение работы по команде пользователя.
